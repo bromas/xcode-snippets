@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>managedControllerCast</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;# identifier #&gt; : &lt;# controller class #&gt; = {
+        var optionalCast = self.managedController as? &lt;# controller class#&gt;
+        assert(optionalCast != nil, "Could not cast controller \(self.managedController) to expected strategic subclass")
+        return optionalCast ?? &lt;# controller class #&gt;()
+        }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E55A81F2-78EE-4008-A315-D03C6B0CE3F8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>managedControllerCast</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
